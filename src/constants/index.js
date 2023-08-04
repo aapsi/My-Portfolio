@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    hardhat,
+    solidity
   } from "../assets";
   
   export const navLinks = [
@@ -56,6 +58,14 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Solidity",
+      icon: solidity,
+    },
+    {
+      name: "Hardhat",
+      icon: hardhat,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -99,10 +109,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
