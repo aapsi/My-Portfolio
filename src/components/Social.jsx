@@ -1,16 +1,18 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 const SocialIcons = () => {
-  const handleIconClick = (url) => {
-    window.open(url, '_blank');
-  };
-
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
-      <FaGithub size={30} onClick={() => handleIconClick('https://github.com')} style={{ cursor: 'pointer' }} />
-      <FaLinkedin size={30} onClick={() => handleIconClick('https://www.linkedin.com')} style={{ cursor: 'pointer' }} />
-      <FaTwitter size={30} onClick={() => handleIconClick('https://twitter.com')} style={{ cursor: 'pointer' }} />
+    <div className="flex flex-col gap-5 items-center space-x-4">
+      <a href="https://github.com/aapsi" target="_blank" rel="noopener noreferrer">
+        <FiGithub className="w-6 h-6 text-gray-700 hover:text-gray-800" />
+      </a>
+      <a href="https://www.linkedin.com/in/aapsi-khaira-308283162/" target="_blank" rel="noopener noreferrer">
+        <FiLinkedin className="w-6 h-6 text-blue-500 hover:text-blue-600" />
+      </a>
+      <a href="https://twitter.com/AapsiK" target="_blank" rel="noopener noreferrer">
+        <FiTwitter className="w-6 h-6 text-blue-400 hover:text-blue-500" />
+      </a>
     </div>
   );
 };
