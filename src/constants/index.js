@@ -3,6 +3,8 @@ import {
     backend,
     creator,
     web,
+    // hardhat,
+    // solidity,
     javascript,
     typescript,
     html,
@@ -23,8 +25,6 @@ import {
     jobit,
     tripguide,
     threejs,
-    hardhat,
-    solidity
   } from "../assets";
   
   export const navLinks = [
@@ -58,14 +58,14 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "Solidity",
-      icon: solidity,
-    },
-    {
-      name: "Hardhat",
-      icon: hardhat,
-    },
+    // {
+    //   name: "Solidity",
+    //   icon: solidity,
+    // },
+    // {
+    //   name: "Hardhat",
+    //   icon: hardhat,
+    // },
     {
       name: "HTML 5",
       icon: html,
