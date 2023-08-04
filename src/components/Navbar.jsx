@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants/constants";
-import { logo, menu, close } from "../assets";
+import { navLinks } from "../constants";
+import { menu, close } from "../assets";
+import logo from "/ak-logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -22,6 +23,7 @@ const Navbar = () => {
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
+            window.scrollTo(0,0);
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
