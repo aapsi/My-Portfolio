@@ -25,6 +25,7 @@ import {
     jobit,
     tripguide,
     threejs,
+
   } from "../assets";
   
   export const navLinks = [
@@ -120,7 +121,7 @@ import {
     {
       title: "MERN Developer",
       company_name: "SeoMasterTeam",
-      icon: starbucks,
+      icon: creator,
       iconBg: "#383E56",
       date: "March 2023 - July 2023",
       points: [
@@ -133,7 +134,7 @@ import {
     {
       title: "System Engineer",
       company_name: "Tata Consultancy Services",
-      icon: tesla,
+      icon: creator,
       iconBg: "#E6DEDD",
       date: "May 2021 - Oct 2022",
       points: [
@@ -146,7 +147,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Quest Global Technologies LTD",
-      icon: shopify,
+      icon: creator,
       iconBg: "#383E56",
       date: "Feb 2021 - May 2021",
       points: [
