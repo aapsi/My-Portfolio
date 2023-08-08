@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
-const SocialIcons = () => {
+const Social = () => {
   return (
     <div className="flex flex-col gap-5 items-center space-x-4">
       <a href="https://github.com/aapsi" target="_blank" rel="noopener noreferrer">
@@ -17,4 +17,4 @@ const SocialIcons = () => {
   );
 };
 
-export default SocialIcons;
+export default Social;
