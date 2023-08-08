@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import website from "./website.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,15 +21,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import hardhat from "./tech/hardhat.png";
+import solidity from "./tech/solidity.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tcs from "./tcs.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bank from "./bank.png";
+import ecommerce from "./ecommerce.png";
+import gym from "./gym.png";
+import xverse from "./xverse.png";
 
 export {
   logo,
@@ -37,6 +45,7 @@ export {
   mobile,
   web,
   github,
+  website,
   menu,
   close,
   css,
@@ -59,4 +68,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  bank,
+  ecommerce,
+  gym,
+  tcs,
+  xverse,
+  hardhat,
+  solidity,
 };

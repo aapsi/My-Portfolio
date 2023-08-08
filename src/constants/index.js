@@ -238,18 +238,18 @@ import {
     {
       name: "Ecommerce app",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An ecommerce site that sells headphones. The ecommerce functionalities are implemented with Sanity.io, with payments supported by Stripe. TailwindCss has been used to theme the web app.",
       tags: [
         {
-          name: "react",
+          name: "next",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sanity(CMS)",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -258,20 +258,20 @@ import {
       website_link: "https://e-commerce-store-weld.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Business Landing Page ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A business Landing page made using next.js and styled using tailwind css. This site has styles which include gradients.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -280,20 +280,24 @@ import {
       website_link: "https://bank-business-landing-page.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Xverse",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Landing page for Xverse Metaverse. It is built using next.js and styled using Tailwind css and animations are done using framer motion.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Framer-motion",
           color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
