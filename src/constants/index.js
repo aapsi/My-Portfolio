@@ -3,8 +3,8 @@ import {
     backend,
     creator,
     web,
-    // hardhat,
-    // solidity,
+    hardhat,
+    solidity,
     javascript,
     typescript,
     html,
@@ -25,6 +25,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    bank,
+    ecommerce,
+    gym,
+    tcs,
+    xverse,
 
   } from "../assets";
   
@@ -67,13 +72,10 @@ import {
     //   name: "Hardhat",
     //   icon: hardhat,
     // },
+
     {
       name: "HTML 5",
       icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
     },
     {
       name: "JavaScript",
@@ -108,6 +110,14 @@ import {
       icon: threejs,
     },
     {
+      name: "Solidity",
+      icon: solidity,
+    },
+    {
+      name: "Hardhat",
+      icon: hardhat,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -134,7 +144,7 @@ import {
     {
       title: "System Engineer",
       company_name: "Tata Consultancy Services",
-      icon: creator,
+      icon: tcs,
       iconBg: "#E6DEDD",
       date: "May 2021 - Oct 2022",
       points: [
@@ -200,28 +210,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "EvoGym",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to explore the amenities of the gym, connect and send enquiry email.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "framer-motion",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: gym,
+      source_code_link: "https://github.com/aapsi/Fitness-website",
+      website_link: "https://0d9cd9d1.fitness-website-93g.pages.dev/",
     },
     {
-      name: "Job IT",
+      name: "Ecommerce app",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -238,8 +253,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/aapsi/E-commerce-store",
+      website_link: "https://e-commerce-store-weld.vercel.app/",
     },
     {
       name: "Trip Guide",
@@ -259,8 +275,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bank,
+      source_code_link: "https://github.com/aapsi/Bank-Business-Landing-Page",
+      website_link: "https://bank-business-landing-page.vercel.app/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: xverse,
+      source_code_link: "https://github.com/aapsi/project_metaverse-main",
+      website_link: "https://project-metaverse-main-ruddy.vercel.app/",
     },
   ];
   
