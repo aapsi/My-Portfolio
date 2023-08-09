@@ -171,19 +171,19 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Machine Learning Developer",
+      company_name: "Technocolabs",
+      icon: creator,
+      iconBg: "#E6DEDD",
+      date: "July 2020 - Sep 2020",
+      points: [
+        "Improved total response time of multiple deep learning models by introducing threading.",
+        "Implemented features like fall detection, intruder detection, fire detection, and alert.",
+        "Trained and tested different deep learning models.",
+        "Technologies: Python, Django, Ajax, Docker, Keras, and OpenCV."
+      ],
+    },
   ];
   
   const testimonials = [
