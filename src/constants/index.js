@@ -30,6 +30,7 @@ import {
     gym,
     tcs,
     xverse,
+    python,
 
   } from "../assets";
   
@@ -76,6 +77,10 @@ import {
     {
       name: "HTML 5",
       icon: html,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "JavaScript",
