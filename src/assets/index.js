@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import hardhat from "./tech/hardhat.png";
 import solidity from "./tech/solidity.png";
 import python from "./tech/python.png";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -77,4 +78,5 @@ export {
   hardhat,
   solidity,
   python,
+  nextjs,
 };
